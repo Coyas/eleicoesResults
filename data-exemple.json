@@ -1,0 +1,35 @@
+{
+  "result": {
+    "JsonFile": {
+      "mesa": {
+        "id": 8731,
+        "mesa": "BV-A-01",
+        "apurado": "Sim",
+        "local_voto": "Santiago",
+        "zona": "Porto a baixo",
+        "posto": "A - Cidade de Sal-Rei",
+        "concelho": "23851 - BOA VISTA",
+        "id_circulo": 478,
+        "sigla_circulo": "BV",
+        "desc_circulo": "Boavista",
+        "latitude": "-14.151541545",
+        "longitude": "25.151541545",
+        "total_votantes": 404,
+        "total_inscritos": 443,
+        "votos_brancos": 3,
+        "votos_validos": 392,
+        "votos_nulos": 9,
+        "votos_protestados": 0,
+        "partidos": [
+          {
+            "id": "42",
+            "cor": "#00FF00",
+            "sigla": "MDP / PAICV / PP / UCID",
+            "descricao": "MOVIMENTO PARA A DEMOCRACIA",
+            "total_votos": 350
+          }
+        ]
+      }
+    }
+  }
+}
