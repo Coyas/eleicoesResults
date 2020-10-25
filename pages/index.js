@@ -5,30 +5,30 @@ import Head from "next/head";
 
 const Index = () => {   
 
-    console.log("dados da nosi api")
-    console.log(dados)
+    // console.log("dados da nosi api")
+    // console.log(dados)
 
    
-    const data = {
-        labels: [
-            'Red',
-            'Blue',
-            'Yellow'
-        ],
-        datasets: [{
-            data: [300, 50, 100],
-            backgroundColor: [
-            '#FF6384',
-            '#36A2EB',
-            '#FFCE56'
-            ],
-            hoverBackgroundColor: [
-            '#FF6384',
-            '#36A2EB',
-            '#FFCE56'
-            ]
-        }]
-    };
+    // const data = {
+    //     labels: [
+    //         'Red',
+    //         'Blue',
+    //         'Yellow'
+    //     ],
+    //     datasets: [{
+    //         data: [300, 50, 100],
+    //         backgroundColor: [
+    //         '#FF6384',
+    //         '#36A2EB',
+    //         '#FFCE56'
+    //         ],
+    //         hoverBackgroundColor: [
+    //         '#FF6384',
+    //         '#36A2EB',
+    //         '#FFCE56'
+    //         ]
+    //     }]
+    // };
 
     return (
     <>
@@ -40,6 +40,7 @@ const Index = () => {
             />
             <title>Eleições Autárquicas 2020-2021</title>
         </Head>
+        <p>ola mundo</p>
 
         {/* <header>
             <nav className="navbar bg-danger text-white">
