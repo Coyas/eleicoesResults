@@ -38,16 +38,10 @@ const Index = ({dados}) => {
                 name="viewport"
                 content="width=device-width, initial-scale=1.0"
             />
-            
-            {/* <script
-                async
-                src="https://static.addtoany.com/menu/page.js"
-            ></script> */}
-            {/* <link rel="icon" type="image/png" href="/zebrafavicon.png"></link> */}
             <title>Eleições Autárquicas 2020-2021</title>
         </Head>
 
-        <header>
+        {/* <header>
             <nav className="navbar bg-danger text-white">
                 <span className="navbar-brand mb-0 h1">Eleições Autárquicas 2020-2021</span>
             </nav>
@@ -55,7 +49,7 @@ const Index = ({dados}) => {
 
         <main >
             <PieGraph dados={data}/>
-        </main>
+        </main> */}
     </>
     )
 }
