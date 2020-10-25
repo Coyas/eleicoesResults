@@ -4,9 +4,9 @@
   "description": "get mpd elections data from nosi api",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 8859",
     "build": "next build",
-    "start": "next start"
+    "start": "next start -p 8859"
   },
   "keywords": [
     "nosi",
